@@ -3,9 +3,13 @@ body
 	margin: 0;
 	padding: 0;
 	background: url(bg1.jpg);
-	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	 background-attachment: fixed;
+	 background-size: cover;
 	font-family: sans-serif;
 }
+
 .loginBox
 {
 	position: absolute;
@@ -18,7 +22,7 @@ body
 	height: 420px;
 	background: rgba(0,0,0,.6);
 }
-.user 
+.user
 {
     width: 100px;
     height: 100px;
